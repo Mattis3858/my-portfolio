@@ -35,8 +35,7 @@ let resumeData = {
   ],
   work: [
     {
-      Achievements: "iuiruv\
-        ",
+      Achievements: "iuiruv",
     },
   ],
   skillsDescription: "Skills & Abilities",
