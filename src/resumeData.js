@@ -2,8 +2,6 @@ let resumeData = {
   imagebaseurl: "",
   name: "Mattis Chu 朱茂榛",
   role: "Junior Front End Web Developer",
-  linkedinId: "Your LinkedIn Id",
-  skypeid: "Your skypeid",
   roleDescription: "",
   socialLinks: [
     {
@@ -23,26 +21,31 @@ let resumeData = {
     },
   ],
   aboutme:
-    "畢業於新竹高中，現於政治大學資訊管理學系就讀，對於網頁開發尤其於前端部分有熱忱。能夠迅速完成任務並且不怕困難",
+    "朱茂榛，現於政治大學資訊管理學系就讀。目前大三，為政大羽球校隊一員，不怕磨練。隨著大學期間不斷的累積讓我逐漸發掘寫程式的樂趣，也透過一次一次的課程專案找到自己有興趣的方向: 網頁開發。之後用了一個寒假的時間學習HTML以及CSS，之後也買了Udemy上的Javascript以及React.js課程，課餘時間也會閱讀React之官方文件持續精進自己的技能，後來大三上的企業資料通訊也讓我更了解專業的網路知識，另外還有一堂產銷資訊系統的課程期末專案需要使用Flask開發系統，而我作為開發人員也了解到前後端溝通的重要，同時透過網路資源以及官方文件自行學習關於後端Node.js以及Express.js，讓我更加確定自己未來的方向，也希望未來能夠進入相關的領域繼續探索。",
   address: "台北市文山區",
   website: "https://",
   education: [
     {
       UniversityName: "國立政治大學 ",
       specialization: "資訊管理學系 ",
-      hobby: "政治大學羽球校隊 資管系羽球系隊隊長",
     },
   ],
-  work: [
+  achievements: [
     {
-      Achievements: "iuiruv",
+      Achievements: "多益930分金色證書",
+    },
+    {
+      Achievements: "現參加政治大學羽球校隊，資管系羽球系隊隊長，球齡12年",
+    },
+    {
+      Achievements: "圍棋初段",
     },
   ],
   skillsDescription: "Skills & Abilities",
   skills: [
     {
-      skillid: 1,
-      skillname: "React.js / Javascript",
+      skillid: 2,
+      skillname: "Javascript / React.js",
     },
     {
       skillid: 3,
@@ -50,62 +53,53 @@ let resumeData = {
     },
     {
       skillid: 4,
+      skillname: "Flask / Python",
+    },
+    {
+      skillid: 5,
       skillname: "MySQL / MongoDB",
     },
     {
       skillid: 5,
-      skillname: "Python / Flask",
-    },
-    {
-      skillid: 6,
-      skillname: "Java",
+      skillname: "Java / JSP",
     },
   ],
   portfolio: [
     {
-      name: "unitialproperties.co.za",
+      name: "Production and Selling Information System",
       description: "Python/Flask",
       imgurl: "images/portfolio/1.png",
+      url: "http://mattis.pythonanywhere.com/",
     },
     {
-      name: "www.familytree365.com",
-      description: "Vue.js",
+      name: "Better Spotify",
+      description: "React.js / Node.js / Express.js",
+      imgurl: "images/portfolio/6.png",
+      url: "https://github.com/Mattis3858/Spotify-Premier",
+    },
+    {
+      name: "Calculator using modern javascript",
+      description: "HTML, CSS, Javascript",
       imgurl: "images/portfolio/2.png",
+      url: "https://mattis-calculator.netlify.app",
     },
     {
-      name: "turn2me.ie",
-      description: "Laravel",
+      name: "Diary",
+      description: "HTML, CSS, Javascript",
       imgurl: "images/portfolio/3.png",
     },
     {
-      name: "cryptocars.me",
-      description: "Blockchain",
-      imgurl: "images/portfolio/4.png",
-    },
-    {
-      name: "highkey.com",
-      description: "Shopify",
-      imgurl: "images/portfolio/5.png",
-    },
-    {
-      name: "www.eldorado.gg",
-      description: "Vue.js",
-      imgurl: "images/portfolio/6.png",
-    },
-    {
-      name: "www.rybitt.com",
+      name: "Clock",
       description: "React.js",
-      imgurl: "images/portfolio/7.png",
+      imgurl: "images/portfolio/4.png",
+      url: "https://mattis-react-clock.netlify.app/",
     },
+
     {
-      name: "jomi.com",
-      description: "Next.js",
-      imgurl: "images/portfolio/8.png",
-    },
-    {
-      name: "kindergartenprepchildcare.com",
-      description: "Wordpress",
-      imgurl: "images/portfolio/9.png",
+      name: "Beat Google",
+      description: "Java / JSP",
+      imgurl: "images/portfolio/5.jpg",
+      url: "https://github.com/Mattis3858/DSWeb/tree/master/DSWeb",
     },
   ],
   testimonials: [
@@ -146,6 +140,10 @@ let resumeData = {
       name: "Charles Strauss",
     },
   ],
+  lineId: "mattis3858",
+  instagramId: "https://www.instagram.com/zhumaozhen/",
+  discordId: "Mattis#2732",
+  github: "https://github.com/Mattis3858",
 };
 
 export default resumeData;
