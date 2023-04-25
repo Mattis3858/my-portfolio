@@ -53,7 +53,11 @@ export default class Header extends Component {
                   resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank" rel="noreferrer">
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className={item.className} />
                         </a>
                       </li>
