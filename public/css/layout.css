@@ -35,7 +35,8 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/homepage-background.jpg) no-repeat top
+    center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -55,7 +56,7 @@ header .banner {
   margin: 0 auto;
   width: 85%;
   padding-bottom: 30px;
-  stext-align: center;
+  text-align: center;
 }
 
 header .banner-text {
@@ -367,41 +368,114 @@ ul#nav li.current a {
   width: 100%;
   -moz-animation: style-1 2s ease;
   -webkit-animation: style-1 2s ease;
+  animation: style-1 2s ease;
 }
 .style-2 {
   width: 90%;
+  animation: style-2 2s ease;
   -moz-animation: style-2 2s ease;
   -webkit-animation: style-2 2s ease;
 }
 .style-3 {
   width: 80%;
+  animation: style-3 2s ease;
   -moz-animation: style-3 2s ease;
   -webkit-animation: style-3 2s ease;
 }
 .style-4 {
   width: 70%;
+  animation: style-4 2s ease;
   -moz-animation: style-4 2s ease;
   -webkit-animation: style-4 2s ease;
 }
 .style-5 {
   width: 60%;
+  animation: style-5 2s ease;
   -moz-animation: style-5 2s ease;
   -webkit-animation: style-5 2s ease;
 }
 .style-6 {
   width: 50%;
+  animation: style-6 2s ease;
   -moz-animation: style-6 2s ease;
   -webkit-animation: style-6 2s ease;
 }
 .style-7 {
   width: 40%;
+  animation: style-7 2s ease;
   -moz-animation: style-7 2s ease;
   -webkit-animation: style-7 2s ease;
 }
 .style-8 {
   width: 30%;
+  animation: style-8 2s ease;
   -moz-animation: style-8 2s ease;
   -webkit-animation: style-8 2s ease;
+}
+
+@keyframes style1 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes style2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes style3 {
+  0% {
+    width: 0px;
+  }
+  95% {
+    width: 95%;
+  }
+}
+@keyframes style4 {
+  0% {
+    width: 0px;
+  }
+  90% {
+    width: 90%;
+  }
+}
+@keyframes style5 {
+  0% {
+    width: 0px;
+  }
+  90% {
+    width: 90%;
+  }
+}
+@keyframes style6 {
+  0% {
+    width: 0px;
+  }
+  90% {
+    width: 90%;
+  }
+}
+@keyframes style7 {
+  0% {
+    width: 0px;
+  }
+  80% {
+    width: 80%;
+  }
+}
+@keyframes style8 {
+  0% {
+    width: 0px;
+  }
+  80% {
+    width: 80%;
+  }
 }
 
 @-moz-keyframes style1 {
@@ -885,6 +959,7 @@ call-to-action .button {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li {
   display: none;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 /* Suggested container for slide animation setups. Can replace this with your own */
@@ -1021,7 +1096,6 @@ call-to-action .button {
   font: 15px/24px "opensans-bold", sans-serif;
   margin: 12px 0;
   color: #ebeeee;
-  display: inline-block;
   float: left;
   width: 26%;
 }

@@ -19,7 +19,7 @@ export default class Portfolio extends Component {
                         <a
                           href={`${item.url}`}
                           onClick={() => {
-                            window.open(item.url);
+                            window.location.href = item.url;
                           }}
                         >
                           <img
