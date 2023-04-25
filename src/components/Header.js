@@ -33,17 +33,19 @@ export default class Header extends Component {
                   Works
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">{resumeData.name}</h1>
+              <h1 className="responsive-headline" style={{ fontWeight: 750 }}>
+                {resumeData.name}
+              </h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 {resumeData.role}.{resumeData.roleDescription}
               </h3>

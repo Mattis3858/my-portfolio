@@ -19,6 +19,11 @@ let resumeData = {
       url: "https://www.instagram.com/zhumaozhen/",
       className: "fa fa-instagram",
     },
+    {
+      name: "Email",
+      url: "mailto: mattis3858@​yahoo.com.tw",
+      className: "fas fa-envelope",
+    },
   ],
   aboutme:
     "朱茂榛，現於政治大學資訊管理學系就讀。目前大三，為政大羽球校隊一員，不怕磨練。隨著大學期間不斷的累積讓我逐漸發掘寫程式的樂趣，也透過一次一次的課程專案找到自己有興趣的方向: 網頁開發。之後用了一個寒假的時間學習HTML以及CSS，之後也買了Udemy上的Javascript以及React.js課程，課餘時間也會閱讀React之官方文件持續精進自己的技能，後來大三上的企業資料通訊也讓我更了解專業的網路知識，另外還有一堂產銷資訊系統的課程期末專案需要使用Flask開發系統，而我作為開發人員也了解到前後端溝通的重要，同時透過網路資源以及官方文件自行學習關於後端Node.js以及Express.js，讓我更加確定自己未來的方向，也希望未來能夠進入相關的領域繼續探索。",
