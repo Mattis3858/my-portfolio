@@ -33,11 +33,11 @@ export default class Header extends Component {
                   Works
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="smoothscroll" href="#testimonials">
                   Testimonials
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
@@ -53,7 +53,7 @@ export default class Header extends Component {
                   resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a href={item.url} target="_blank" rel="noreferrer">
                           <i className={item.className} />
                         </a>
                       </li>
