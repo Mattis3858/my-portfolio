@@ -101,12 +101,17 @@ let resumeData = {
       imgurl: "images/portfolio/clock.png",
       url: "https://mattis-react-clock.netlify.app/",
     },
-
     {
       name: "Beat Google",
       description: "Java / JSP",
       imgurl: "images/portfolio/beat-google.jpg",
       url: "https://github.com/Mattis3858/DSWeb/tree/master/DSWeb",
+    },
+    {
+      name: "House Price Prediction",
+      description: "Python / Neural Network",
+      imgurl: "images/portfolio/house-pricing-prediction.png",
+      url: "https://github.com/Mattis3858/Artificial_Intelligence_in_Business_Application",
     },
   ],
   testimonials: [
