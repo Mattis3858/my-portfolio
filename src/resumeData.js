@@ -58,6 +58,10 @@ let resumeData = {
       skillname: "Node.js / ExpressJS",
     },
     {
+      skillid: 5,
+      skillname: "Git",
+    },
+    {
       skillid: 4,
       skillname: "Flask / Python",
     },
@@ -112,44 +116,6 @@ let resumeData = {
       description: "Python / Neural Network",
       imgurl: "images/portfolio/house-pricing-prediction.png",
       url: "https://github.com/Mattis3858/Artificial_Intelligence_in_Business_Application",
-    },
-  ],
-  testimonials: [
-    {
-      avatar: "1.jpg",
-      description:
-        "Very Good Communication, Excellent Work, Knows his stuff. \n I recommend it to everyone. Rapide and Professional.",
-      name: "Ashely Purcell",
-    },
-    {
-      avatar: "2.jpg",
-      description:
-        "His work is amazing, I got exactly what I was looking for, and he communicates all the time to make sure you get what you need.",
-      name: "Joseph Myers",
-    },
-    {
-      avatar: "3.jpg",
-      description:
-        "Victor really went all the way to turn our precise vision into reality. Really grateful for the wonderful work and phenomenal communication! We wouldn't hesitate to work with him again.",
-      name: "Daniel Ferguson",
-    },
-    {
-      avatar: "4.jpg",
-      description:
-        "Overall, I would strongly recommend Victor to anyone seeking high-quality work and a professional work ethic. His abilities and competence were obvious, and his dedication to the project's success was remarkable. ",
-      name: "Laurence JIN",
-    },
-    {
-      avatar: "5.jpg",
-      description:
-        "One of the things that most impressed me about him was his experience and the high quality of him work. His attention to detail and readiness to make adjustments to ensure that the result met my exact expectations impressed me.",
-      name: "Thomas Zavala",
-    },
-    {
-      avatar: "6.jpg",
-      description:
-        " Victor was responsive and simple to deal with throughout the process.  His kept me informed of him progress and was always accessible to answer any queries I had. His was clearly invested in the project's success, and his enthusiasm was contagious. ",
-      name: "Charles Strauss",
     },
   ],
   lineId: "mattis3858",
