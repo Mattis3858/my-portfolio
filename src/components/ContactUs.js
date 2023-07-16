@@ -1,3 +1,4 @@
+import React from "react";
 function ContactUs(props) {
   let resumeData = props.resumeData;
   return (
