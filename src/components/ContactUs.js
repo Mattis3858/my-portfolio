@@ -15,6 +15,9 @@ function ContactUs(props) {
               Github : <a href={resumeData.github}>Mattis3858</a>
             </h4>
             <h4>
+              Email : <a href={resumeData.email}>Mattis3858</a>
+            </h4>
+            <h4>
               Instagram : <a href={resumeData.instagramId}>zhumaozhen</a>
             </h4>
             <h4>Discord : {resumeData.discordId}</h4>

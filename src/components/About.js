@@ -10,7 +10,18 @@ function About(props) {
 
         <div className="nine columns main-col">
           <h2>About Me</h2>
-          <p>{resumeData.aboutme}</p>
+          <p>
+            {
+              <p>
+                {resumeData.aboutme.split("\n").map((paragraph, index) => (
+                  <React.Fragment key={index}>
+                    {paragraph}
+                    <br />
+                  </React.Fragment>
+                ))}
+              </p>
+            }
+          </p>
 
           {/* <div className="row">
               <div className="columns contact-details">
