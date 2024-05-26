@@ -21,7 +21,7 @@ let resumeData = {
     },
     {
       name: "Email",
-      url: "mailto: mattis3858@​yahoo.com.tw",
+      url: "mailto: mustang3858@gmail.com",
       className: "fas fa-envelope",
     },
   ],
@@ -35,7 +35,7 @@ let resumeData = {
         專案經驗：
         在學期間在許多專案中負責製作網頁，也對網頁開發產生濃厚興趣，因此除了學校的課業外，在課餘時間自行學習React.js、Vue.js等前端框架，另外也學習Flask以及NextJS等網頁後端及全端的框架，在大三期間的產銷資訊系統課程中，我們小組的專題主題為幫助果乾小農管理銷貨、庫存管理資訊系統，而我在其中同樣負責前後端的開發以及串接。未來希望能結合前面所述之資訊以及金融科技能力應用於職涯中。除了網頁開發以外，其他專案也負責過使用者需求分析、資料庫管理、企劃書撰寫等工作項目，而目前正在進行畢業專案的開發以及前端工程師實習。畢業專案主題為幫助大學生擁有全新的品茶體驗，在團隊中主要負責前後端開發以及串接，透過實務上的經驗讓能更快的開發畢業專案並與團隊進行溝通合作。同時，我也善於規劃工作流程與專案開發時間，幫助團隊在時程內完成任務，與團隊成員一同完成畢業專案。`,
   address: "台北市文山區",
-  email: "mattis3858@yahoo.com.tw",
+  email: "mustang3858@gmail.com",
   website: "https://",
   education: [
     {
@@ -83,6 +83,12 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "TeaJourney",
+      description: "Next.js / Supabase",
+      imgurl: "images/portfolio/teajourney.png",
+      url: "https://teajourney.vercel.app/",
+    },
+    {
       name: "Production and Selling Information System",
       description: "Python/Flask",
       imgurl: "images/portfolio/information-system.png",
@@ -93,12 +99,6 @@ let resumeData = {
       description: "React.js / Node.js / Express.js",
       imgurl: "images/portfolio/better-spotify.png",
       url: "https://github.com/Mattis3858/Spotify-Premier",
-    },
-    {
-      name: "Calculator using modern javascript",
-      description: "HTML, CSS, Javascript",
-      imgurl: "images/portfolio/calculator.png",
-      url: "https://mattis-calculator.netlify.app",
     },
     {
       name: "House Price Prediction",
@@ -112,19 +112,7 @@ let resumeData = {
       imgurl: "images/portfolio/diary-site.png",
       url: "",
     },
-    {
-      name: "Clock",
-      description: "React.js",
-      imgurl: "images/portfolio/clock.png",
-      url: "https://mattis-react-clock.netlify.app/",
-    },
 
-    {
-      name: "React Todo List",
-      description: "React Todo List",
-      imgurl: "images/portfolio/react-todo-list.png",
-      url: "https://react-built-todo-list.netlify.app/",
-    },
     {
       name: "Beat Google",
       description: "Java / JSP",
