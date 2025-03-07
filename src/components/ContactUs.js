@@ -12,6 +12,9 @@ function ContactUs(props) {
         <aside className="eigth columns footer-widgets">
           <div className="widget">
             <h4>
+              LinkedIn : <a href={resumeData.linkedIn}>朱茂榛</a>
+            </h4>
+            <h4>
               Github : <a href={resumeData.github}>Mattis3858</a>
             </h4>
             <h4>
