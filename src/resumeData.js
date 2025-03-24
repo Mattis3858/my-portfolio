@@ -76,7 +76,7 @@ let resumeData = {
       Achievements: "2023 政大資管系專案發表第三名",
     },
     {
-      Achievements: "完成政大金融科技學程",
+      Achievements: "政大金融科技學程",
     },
     {
       Achievements: "多益930分金色證書",
