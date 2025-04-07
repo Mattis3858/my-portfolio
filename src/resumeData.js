@@ -130,11 +130,18 @@ let resumeData = {
   ],
   portfolio: [
     {
+      name: "TCFD Report Evaluation System",
+      description: "Python / Tensorflow / LLMs / RAG / Fine-tune / Chroma",
+      imgurl: "images/portfolio/TCFD.jpeg",
+      url: "https://github.com/Mattis3858/rag_for_tcfd_reports",
+    },
+    {
       name: "TeaJourney",
       description: "Next.js / Supabase / LLM / Langchain",
       imgurl: "images/portfolio/teajourney.png",
       url: "https://teajourney.vercel.app/",
     },
+
     {
       name: "Knowledge Wave",
       description:
@@ -147,12 +154,6 @@ let resumeData = {
       description: "Python/Flask",
       imgurl: "images/portfolio/information-system.png",
       url: "https://github.com/Mattis3858/Producing_And_Selling_Information_System",
-    },
-    {
-      name: "Better Spotify",
-      description: "React.js / Node.js / Express.js",
-      imgurl: "images/portfolio/better-spotify.png",
-      url: "https://github.com/Mattis3858/Spotify-Premier",
     },
     {
       name: "House Price Prediction",
