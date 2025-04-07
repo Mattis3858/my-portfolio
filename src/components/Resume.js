@@ -16,9 +16,9 @@ function Resume(props) {
               return (
                 <div className="row item" key={i}>
                   <div className="twelve columns">
-                    <h3>{item.UniversityName}</h3>
+                    <h3>{item.specialization}</h3>
                     <p className="info">
-                      {item.specialization}
+                      {item.UniversityName}
                       <span />{" "}
                     </p>
                     <p>{item.hobby}</p>

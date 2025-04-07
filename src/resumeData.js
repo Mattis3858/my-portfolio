@@ -53,11 +53,11 @@ let resumeData = {
   education: [
     {
       UniversityName: "國立政治大學",
-      specialization: "資訊管理學系碩士",
+      specialization: "資訊管理學系 碩士",
     },
     {
       UniversityName: "國立政治大學",
-      specialization: "資訊管理學系學士",
+      specialization: "資訊管理學系 學士",
     },
   ],
   achievements: [
