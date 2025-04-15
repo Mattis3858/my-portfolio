@@ -127,7 +127,7 @@ let resumeData = {
       name: "TCFD Report Evaluation System",
       description: "Python / Tensorflow / LLMs / RAG / Fine-tune / Chroma",
       imgurl: "images/portfolio/TCFD.jpeg",
-      url: "https://github.com/Mattis3858/rag_for_tcfd_reports",
+      url: "https://github.com/Mattis3858/Automated-model-to-assess-TCFD-reports",
     },
     {
       name: "TeaJourney",
