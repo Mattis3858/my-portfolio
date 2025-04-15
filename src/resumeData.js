@@ -86,12 +86,6 @@ let resumeData = {
     {
       Achievements: "政治大學羽球校隊一員，曾任資管系羽球系隊隊長，球齡13年",
     },
-    {
-      Achievements: "新竹縣全縣鋼琴比賽第二名",
-    },
-    {
-      Achievements: "圍棋初段",
-    },
   ],
   skillsDescription: "Skills & Abilities",
   skills: [
