@@ -10,9 +10,14 @@ let resumeData = {
       className: "fa fa-github",
     },
     {
-      name: "FB",
-      url: "https://www.facebook.com/profile.php?id=100010560076903",
-      className: "fa fa-facebook",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/%E8%8C%82%E6%A6%9B-%E6%9C%B1-152b96259/",
+      className: "fa fa-linkedin",
+    },
+    {
+      name: "Email",
+      url: "mailto: chumattis@gmail.com",
+      className: "fas fa-envelope",
     },
     {
       name: "IG",
@@ -20,14 +25,9 @@ let resumeData = {
       className: "fa fa-instagram",
     },
     {
-      name: "Email",
-      url: "mailto: mattis.maochen.chu@gmail.com",
-      className: "fas fa-envelope",
-    },
-    {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/%E8%8C%82%E6%A6%9B-%E6%9C%B1-152b96259/",
-      className: "fa fa-linkedin",
+      name: "FB",
+      url: "https://www.facebook.com/profile.php?id=100010560076903",
+      className: "fa fa-facebook",
     },
   ],
   aboutme:
@@ -69,7 +69,7 @@ let resumeData = {
       Achievements: "網頁前端開發實習生",
     },
     {
-      Achievements: "大學部課程「程式設計」教學助理",
+      Achievements: "大學部課程「Java 程式設計」教學助理",
     },
     {
       Achievements: "2023 Innoserve資訊應用服務創新競賽 資訊應用組 佳作",
@@ -125,33 +125,32 @@ let resumeData = {
   portfolio: [
     {
       name: "TCFD Report Evaluation System",
-      description: "Python / Tensorflow / LLMs / RAG / Fine-tune / Chroma",
+      description: "Python / Tensorflow / Fine-tuning / ChromaDB / LLMs / RAG",
       imgurl: "images/portfolio/TCFD.jpeg",
       url: "https://github.com/Mattis3858/Automated-model-to-assess-TCFD-reports",
     },
     {
       name: "TeaJourney",
-      description: "Next.js / Supabase / LLM / Langchain",
+      description: "Next.js / Supabase / PostgreSQL / TailwindCSS",
       imgurl: "images/portfolio/teajourney.png",
       url: "https://teajourney.vercel.app/",
     },
 
     {
       name: "Knowledge Wave",
-      description:
-        "Next.js / TailwindCSS / GCP / LLM / Langchain / Web Crawling ",
+      description: "Next.js / TailwindCSS / GCP / Langchain / Web Crawling",
       imgurl: "images/portfolio/Knowledge Wave.png",
       url: "https://data-model-final-project.vercel.app/",
     },
     {
       name: "Production and Selling Information System",
-      description: "Python/Flask",
+      description: "Python / Flask",
       imgurl: "images/portfolio/information-system.png",
       url: "https://github.com/Mattis3858/Producing_And_Selling_Information_System",
     },
     {
       name: "House Price Prediction",
-      description: "Python / Neural Network",
+      description: "Python / Convolutional Neural Network",
       imgurl: "images/portfolio/house-pricing-prediction.png",
       url: "https://github.com/Mattis3858/Artificial_Intelligence_in_Business_Application",
     },
