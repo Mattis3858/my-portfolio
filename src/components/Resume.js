@@ -6,10 +6,9 @@ function Resume(props) {
       <div className="row education">
         <div className="three columns header-col">
           <h1>
-            <span>Specialties</span>
+            <span>Educations</span>
           </h1>
         </div>
-
         <div className="nine columns main-col">
           {resumeData.education &&
             resumeData.education.map((item, i) => {
@@ -21,14 +20,38 @@ function Resume(props) {
                       {item.UniversityName}
                       <span />{" "}
                     </p>
-                    <p>{item.hobby}</p>
                   </div>
                 </div>
               );
             })}
         </div>
       </div>
-      <div className="row work">
+      <div className="row experiences">
+        <div className="three columns header-col">
+          <h1>
+            <span>Experiences</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">
+          {resumeData.experience &&
+            resumeData.experience.map((item, i) => {
+              return (
+                <div className="row item" key={i}>
+                  <div className="twelve columns">
+                    <h3>{item.title}</h3>
+                    <div className="info">
+                      {item.company}
+                      <span />
+                      <div>{item.time}</div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+      </div>
+      <div className="row achievements">
         <div className="three columns header-col">
           <h1>
             <span>Achievements</span>

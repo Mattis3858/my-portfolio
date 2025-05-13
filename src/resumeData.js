@@ -65,13 +65,26 @@ let resumeData = {
       specialization: "資訊管理學系 學士",
     },
   ],
+  experience: [
+    {
+      title: "AI Research Assistant & Developer",
+      company:
+        "國立政治大學 - 國科會研究計畫「環境揭露品質、永續金融及企業永續投資」",
+      time: "2024/04 - present",
+    },
+    {
+      title: "Frontend Developer Intern",
+      company: "未來巢科技",
+      time: "2023/05 - 2023/11",
+    },
+  ],
   achievements: [
     {
       Achievements:
         "國科會研究計畫「環境揭露品質、永續金融及企業永續投資」研究助理",
     },
     {
-      Achievements: "網頁前端開發實習生",
+      Achievements: "網頁前端實習生",
     },
     {
       Achievements: "大學部課程「Java 程式設計」教學助理",
