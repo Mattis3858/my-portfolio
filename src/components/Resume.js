@@ -80,7 +80,7 @@ function Resume(props) {
         </div>
 
         <div className="nine columns main-col">
-          <p>{resumeData.skillsDescription}</p>
+          {/* <p>{resumeData.skillsDescription}</p> */}
 
           <div className="bars">
             <ul className="skills">

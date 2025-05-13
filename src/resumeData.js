@@ -60,7 +60,7 @@ let resumeData = {
       title: "AI 研究助理及開發",
       company:
         "國立政治大學 - 國科會研究計畫「環境揭露品質、永續金融及企業永續投資」",
-      time: "2024/04 ~ Now",
+      time: "2024/04 ~ Present",
     },
     {
       title: "網頁前端實習生",
@@ -99,15 +99,15 @@ let resumeData = {
   skills: [
     {
       skillid: 3,
-      skillname: "Javascript / React.js / Next.js / Tailwind",
-    },
-    {
-      skillid: 3,
-      skillname: "AI / Machine Learning (TensorFlow, Pytorch) / Python",
+      skillname: "AI / Machine Learning / Python",
     },
     {
       skillid: 3,
       skillname: "LLMs / RAG / LangChain / Fine-tuning / Vector DB",
+    },
+    {
+      skillid: 3,
+      skillname: "Javascript / React.js / Next.js / TailwindCSS",
     },
     {
       skillid: 4,
@@ -115,7 +115,7 @@ let resumeData = {
     },
     {
       skillid: 4,
-      skillname: "MySQL / MongoDB / Supabase (PostgreSQL)",
+      skillname: "MySQL / MongoDB / PostgreSQL",
     },
     {
       skillid: 3,
