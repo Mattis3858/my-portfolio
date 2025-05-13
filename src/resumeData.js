@@ -103,7 +103,7 @@ let resumeData = {
     },
     {
       skillid: 3,
-      skillname: "LLMs / RAG / LangChain / Fine-tuning / Vector DB",
+      skillname: "LLMs / Fine-tuning / LangChain / RAG / Vector DB",
     },
     {
       skillid: 3,
