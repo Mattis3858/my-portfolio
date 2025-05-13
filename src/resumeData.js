@@ -133,7 +133,8 @@ let resumeData = {
   portfolio: [
     {
       name: "TCFD Report Evaluation System",
-      description: "Python / Tensorflow / Fine-tuning / ChromaDB / LLMs / RAG",
+      description:
+        "Python / ML(Tensorflow) / Fine-tuning / LLMs / LangChain / RAG / ChromaDB",
       imgurl: "images/portfolio/TCFD.jpeg",
       url: "https://docs.google.com/presentation/d/1EW8qX2fvIntDv09hYI9DEnDJMLYt2HwnZPz9vqTYSyo/edit#slide=id.g3515f27f2cf_0_0",
     },
