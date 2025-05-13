@@ -1,6 +1,6 @@
 let resumeData = {
   imagebaseurl: "",
-  name: "Mattis Chu 朱茂榛",
+  name: "Mattis Chu朱茂榛",
   role: "The One You Need",
   roleDescription: "",
   socialLinks: [
