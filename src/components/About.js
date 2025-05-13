@@ -15,7 +15,7 @@ function About(props) {
 
         <div className="nine columns main-col">
           <h2>About Me</h2>
-          <p>
+          <div>
             {
               <p>
                 {resumeData.aboutme.split("\n").map((paragraph, index) => (
@@ -26,7 +26,7 @@ function About(props) {
                 ))}
               </p>
             }
-          </p>
+          </div>
 
           {/* <div className="row">
               <div className="columns contact-details">
