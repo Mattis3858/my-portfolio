@@ -193,6 +193,9 @@ ul#nav li a {
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
+ul#nav li a:hover {
+  color: #11abb0;
+}
 
 ul#nav li a:active {
   background-color: transparent !important;
@@ -233,8 +236,8 @@ ul#nav li.current a {
 #about .profile-pic {
   position: relative;
   width: auto;
-  height: auto;
-  border-radius: 3%;
+  height: 50%;
+  border-radius: 10%;
 }
 #about .contact-details {
   width: 41.66667%;
@@ -655,6 +658,7 @@ ul#nav li.current a {
   width: 100%;
   height: 100%;
 
+  background-color: rgba(255, 255, 255, 0.8);
   opacity: 0;
   -moz-opacity: 0;
   filter: alpha(opacity=0);
@@ -663,8 +667,6 @@ ul#nav li.current a {
   -moz-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
-
-  background: url(../images/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
@@ -690,6 +692,7 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
+
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
 }
@@ -698,11 +701,11 @@ ul#nav li.current a {
 }
 .portfolio-item .portfolio-item-meta h5 {
   font: 14px/21px "opensans-bold", sans-serif;
-  color: #fff;
+  color: #474747;
 }
 .portfolio-item .portfolio-item-meta p {
   font: 12px/18px "opensans-light", sans-serif;
-  color: #c6c7c7;
+  color: #474747;
   margin-bottom: 0;
 }
 

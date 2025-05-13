@@ -44,15 +44,24 @@ function ContactUs(props) {
             <h4>
               Instagram :{" "}
               <a
-                href={resumeData.instagramId}
+                href={resumeData.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 zhumaozhen
               </a>
             </h4>
+            <h4>
+              Line :{" "}
+              <a
+                href={resumeData.line}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                mattis3858
+              </a>
+            </h4>
             <h4>Discord : {resumeData.discordId}</h4>
-            <h4>Line : {resumeData.lineId}</h4>
           </div>
         </aside>
       </div>
