@@ -17,9 +17,16 @@ function Portfolio(props) {
                     <div className="item-wrap">
                       <a
                         href={`${item.url}`}
-                        onClick={() => {
-                          window.location.href = item.url;
+                        onClick={(e) => {
+                          e.preventDefault();
+                          window.open(
+                            item.url,
+                            "_blank",
+                            "noopener,noreferrer"
+                          );
                         }}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           src={`${item.imgurl}`}
