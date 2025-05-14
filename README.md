@@ -1,3 +1,3 @@
-# Mattis Chu Personal Website
+# Mattis Chu Portfolio
 
 Link:[Mattis Chu Portfolio](https://mattis-portfolio.netlify.app/)
