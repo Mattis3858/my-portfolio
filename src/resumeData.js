@@ -147,7 +147,7 @@ let resumeData = {
     {
       name: "Knowledge Wave",
       description: "Next.js / TailwindCSS / GCP / Langchain / Web Crawling",
-      imgurl: "images/portfolio/Knowledge Wave.png",
+      imgurl: "images/portfolio/Knowledge-Wave.png",
       url: "https://data-model-final-project.vercel.app/",
     },
     {
