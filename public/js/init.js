@@ -100,7 +100,7 @@ jQuery(document).ready(function ($) {
   /*	Modal Popup
 ------------------------------------------------------*/
 
-  $(".item-wrap a").magnificPopup({
+  $(".item-wrap a:not(.portfolio-link-new-tab)").magnificPopup({
     type: "inline",
     fixedContentPos: false,
     removalDelay: 200,
