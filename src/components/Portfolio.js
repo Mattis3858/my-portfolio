@@ -42,7 +42,14 @@ function Portfolio(props) {
         </div>
       </div>
       <h1>
-        Github: <a href="https://github.com/Mattis3858">Mattis3858</a>
+        Github:{" "}
+        <a
+          href="https://github.com/Mattis3858"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Mattis3858
+        </a>
       </h1>
     </section>
   );
