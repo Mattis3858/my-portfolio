@@ -16,7 +16,7 @@ function About(props) {
                 {resumeData.aboutme.map((paragraph, index) => (
                   <div key={index} className="aboutme-description">
                     <h5>{paragraph.description}</h5>
-                    <h6>{paragraph.technique}</h6>
+                    <div className="technique-text">{paragraph.technique}</div>
                     <div>{paragraph.content}</div>
                   </div>
                 ))}
@@ -30,7 +30,7 @@ function About(props) {
                 {resumeData.educationDescription.map((paragraph, index) => (
                   <div key={index} className="aboutme-description">
                     <h5>{paragraph.description}</h5>
-                    <h6>{paragraph.technique}</h6>
+                    <div className="technique-text">{paragraph.technique}</div>
                     <div>{paragraph.content}</div>
                   </div>
                 ))}
@@ -45,7 +45,9 @@ function About(props) {
                   (paragraph, index) => (
                     <div key={index} className="aboutme-description">
                       <h5>{paragraph.description}</h5>
-                      <h6>{paragraph.technique}</h6>
+                      <div className="technique-text">
+                        {paragraph.technique}
+                      </div>
                       <div>{paragraph.content}</div>
                     </div>
                   )
@@ -61,7 +63,9 @@ function About(props) {
                   (paragraph, index) => (
                     <div key={index} className="aboutme-description">
                       <h5>{paragraph.description}</h5>
-                      <h6>{paragraph.technique}</h6>
+                      <div className="technique-text">
+                        {paragraph.technique}
+                      </div>
                       <div>{paragraph.content}</div>
                     </div>
                   )

@@ -264,15 +264,16 @@ ul#nav li.current a {
 #about .aboutme-description {
   margin-bottom: 30px;
   line-height: 30px;
-  color: #bbbbbb;
 }
 
 #about h5 {
   color: #ffffff;
 }
 
-#about h6 {
-  color: #ffffff;
+#about .technique-text {
+  color: #bbbbbb;
+  font-style: italic;
+  font-weight: normal;
 }
 
 /* ------------------------------------------------------------------ */
