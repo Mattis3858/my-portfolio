@@ -231,7 +231,7 @@ ul#nav li.current a {
 }
 #about p {
   line-height: 30px;
-  color: #bbbbbb;
+  color: #ddd;
 }
 #about .profile-pic {
   position: relative;
@@ -271,9 +271,13 @@ ul#nav li.current a {
 }
 
 #about .technique-text {
-  color: #bbbbbb;
+  color: #fff;
   font-style: italic;
   font-weight: normal;
+}
+
+#about .content-text {
+  color: #bebebe;
 }
 
 /* ------------------------------------------------------------------ */

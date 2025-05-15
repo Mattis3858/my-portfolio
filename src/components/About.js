@@ -17,7 +17,7 @@ function About(props) {
                   <div key={index} className="aboutme-description">
                     <h5>{paragraph.description}</h5>
                     <div className="technique-text">{paragraph.technique}</div>
-                    <div>{paragraph.content}</div>
+                    <div className="content-text">{paragraph.content}</div>
                   </div>
                 ))}
               </div>
@@ -31,7 +31,7 @@ function About(props) {
                   <div key={index} className="aboutme-description">
                     <h5>{paragraph.description}</h5>
                     <div className="technique-text">{paragraph.technique}</div>
-                    <div>{paragraph.content}</div>
+                    <div className="content-text">{paragraph.content}</div>
                   </div>
                 ))}
               </div>
@@ -48,7 +48,7 @@ function About(props) {
                       <div className="technique-text">
                         {paragraph.technique}
                       </div>
-                      <div>{paragraph.content}</div>
+                      <div className="content-text">{paragraph.content}</div>
                     </div>
                   )
                 )}
@@ -66,7 +66,7 @@ function About(props) {
                       <div className="technique-text">
                         {paragraph.technique}
                       </div>
-                      <div>{paragraph.content}</div>
+                      <div className="content-text">{paragraph.content}</div>
                     </div>
                   )
                 )}
