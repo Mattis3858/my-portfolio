@@ -171,19 +171,19 @@ let resumeData = {
       description:
         "Python / ML(Tensorflow) / Fine-tuning / LLMs / LangChain / RAG / ChromaDB",
       imgurl: "images/portfolio/TCFD.jpeg",
-      url: "https://docs.google.com/presentation/d/1EW8qX2fvIntDv09hYI9DEnDJMLYt2HwnZPz9vqTYSyo/edit#slide=id.g3515f27f2cf_0_0",
+      url: "https://drive.google.com/file/d/1r6ckVaH0iiBkrCjQufnDKhTp0MlNt56G/view?usp=sharing",
     },
     {
       name: "TeaJourney",
       description: "Next.js / Supabase / PostgreSQL / TailwindCSS",
       imgurl: "images/portfolio/teajourney.png",
-      url: "https://graduation-with-next-mattis3858s-projects.vercel.app/",
+      url: "https://drive.google.com/file/d/13QYBJbkVnKsWv12vOxiNQJITzB1n05bF/view?usp=sharing",
     },
     {
       name: "Knowledge Wave",
       description: "Next.js / TailwindCSS / GCP / Langchain / Web Crawling",
       imgurl: "images/portfolio/Knowledge-Wave.png",
-      url: "https://data-model-final-project.vercel.app/",
+      url: "https://drive.google.com/file/d/1DTDGNKH2zeBbjtVRmw1wlKlARh3gW0tq/view?usp=sharing",
     },
     {
       name: "Production and Selling Information System",
