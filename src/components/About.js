@@ -12,59 +12,61 @@ function About(props) {
           <h2>About Me</h2>
           <div>
             {
-              <p>
-                {resumeData.aboutme.split("\n").map((paragraph, index) => (
-                  <React.Fragment key={index}>
-                    {paragraph}
-                    <br />
-                  </React.Fragment>
+              <div>
+                {resumeData.aboutme.map((paragraph, index) => (
+                  <div key={index} className="aboutme-description">
+                    <h5>{paragraph.description}</h5>
+                    <h6>{paragraph.technique}</h6>
+                    <div>{paragraph.content}</div>
+                  </div>
                 ))}
-              </p>
+              </div>
             }
           </div>
           <h2>課業學習</h2>
           <div>
             {
-              <p>
-                {resumeData.educationDescription
-                  .split("\n")
-                  .map((paragraph, index) => (
-                    <React.Fragment key={index}>
-                      {paragraph}
-                      <br />
-                    </React.Fragment>
-                  ))}
-              </p>
+              <div>
+                {resumeData.educationDescription.map((paragraph, index) => (
+                  <div key={index} className="aboutme-description">
+                    <h5>{paragraph.description}</h5>
+                    <h6>{paragraph.technique}</h6>
+                    <div>{paragraph.content}</div>
+                  </div>
+                ))}
+              </div>
             }
           </div>
-          <h2>實習經驗</h2>
+          <h2>工作經驗</h2>
           <div>
             {
-              <p>
-                {resumeData.internshipExperienceDescription
-                  .split("\n")
-                  .map((paragraph, index) => (
-                    <React.Fragment key={index}>
-                      {paragraph}
-                      <br />
-                    </React.Fragment>
-                  ))}
-              </p>
+              <div>
+                {resumeData.workingExperienceDescription.map(
+                  (paragraph, index) => (
+                    <div key={index} className="aboutme-description">
+                      <h5>{paragraph.description}</h5>
+                      <h6>{paragraph.technique}</h6>
+                      <div>{paragraph.content}</div>
+                    </div>
+                  )
+                )}
+              </div>
             }
           </div>
           <h2>專案經驗</h2>
           <div>
             {
-              <p>
-                {resumeData.projectExperienceDescription
-                  .split("\n")
-                  .map((paragraph, index) => (
-                    <React.Fragment key={index}>
-                      {paragraph}
-                      <br />
-                    </React.Fragment>
-                  ))}
-              </p>
+              <div>
+                {resumeData.projectExperienceDescription.map(
+                  (paragraph, index) => (
+                    <div key={index} className="aboutme-description">
+                      <h5>{paragraph.description}</h5>
+                      <h6>{paragraph.technique}</h6>
+                      <div>{paragraph.content}</div>
+                    </div>
+                  )
+                )}
+              </div>
             }
           </div>
         </div>

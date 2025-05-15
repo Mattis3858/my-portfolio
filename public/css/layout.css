@@ -227,7 +227,7 @@ ul#nav li.current a {
 #about h2 {
   font: 22px/30px "opensans-bold", sans-serif;
   color: #fff;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 #about p {
   line-height: 30px;
@@ -259,6 +259,20 @@ ul#nav li.current a {
 #about .download .button i {
   margin-right: 15px;
   font-size: 20px;
+}
+
+#about .aboutme-description {
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #bbbbbb;
+}
+
+#about h5 {
+  color: #ffffff;
+}
+
+#about h6 {
+  color: #ffffff;
 }
 
 /* ------------------------------------------------------------------ */
