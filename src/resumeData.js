@@ -177,7 +177,7 @@ let resumeData = {
       name: "TeaJourney",
       description: "Next.js / Supabase / PostgreSQL / TailwindCSS",
       imgurl: "images/portfolio/teajourney.png",
-      url: "https://teajourney.vercel.app/",
+      url: "https://graduation-with-next-mattis3858s-projects.vercel.app/",
     },
     {
       name: "Knowledge Wave",
